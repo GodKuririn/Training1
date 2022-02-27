@@ -17,11 +17,34 @@ main {
 .logo {
     padding: 17px;
     float: left;
-    width: 80%;
+    width: 78%;
 }
 
-.social ul li {
+.logo-icon {
+    opacity: 100%;
+    transition: 100ms;
+}
+
+.logo-icon:hover {
+    opacity: 75%;
+    transition: 100ms;
+}
+
+.social ul {
     padding-top: 17px;
-    padding-left: 13px;
+}
+
+.social li {
     display: inline-block;
+    margin-left: 18px;
+}
+
+.rede-social{
+    opacity: 50%;
+    transition: 1000ms;
+}
+
+.rede-social:hover{
+    opacity: 100%;
+    transition: 250ms;
 }
