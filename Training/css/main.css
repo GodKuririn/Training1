@@ -16,4 +16,12 @@ main {
 
 .logo {
     padding: 17px;
+    float: left;
+    width: 80%;
+}
+
+.social ul li {
+    padding-top: 17px;
+    padding-left: 13px;
+    display: inline-block;
 }
