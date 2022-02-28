@@ -6,6 +6,9 @@
 <head>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <title>Site Training</title>
 </head>
 
@@ -13,46 +16,62 @@
 
 <body>
     <header class="menu-principal">
-        <main>
+        <main class="center">
             <div class="header1">
                 <div class="logo">
-                    <a href="http://127.0.0.1:5500/Training/index.html"> <img src="./img/logo.png" class="logo-icon" />
+                    <a href="./index.html"> <img src="./img/logo.png" class="logo-icon" />
                     </a>
                 </div>
             </div>
             <div class="social">
                 <ul>
-                    <li><a href="https://www.google.com.br" target="_blank"><img src="./img/rss.png"
+                    <li><a class="icon-border" href="https://www.google.com.br" target="_blank"><img src="./img/rss.png"
                                 class="rede-social" /></a></li>
-                    <li><a href="https://www.facebook.com" target="_blank"><img src="./img/facebook.png"
-                                class="rede-social" /></a></li>
-                    <li><a href="https://www.twitter.com" target="_blank"><img src="./img/twitter.png"
-                                class="rede-social" /></a></li>
-                    <li><a href="https://www.linkedin.com" target="_blank"><img src="./img/linkedin.png"
-                                class="rede-social" /></a></li>
+                    <li><a class="icon-border" href="https://www.facebook.com" target="_blank"><img
+                                src="./img/facebook.png" class="rede-social" /></a></li>
+                    <li><a class="icon-border" href="https://www.twitter.com" target="_blank"><img
+                                src="./img/twitter.png" class="rede-social" /></a></li>
+                    <li><a class="icon-border" href="https://www.linkedin.com" target="_blank"><img
+                                src="./img/linkedin.png" class="rede-social" /></a></li>
                 </ul>
+            </div>
+        </main>
+        <main class="center2">
+            <div class="menu-secundario">
+                <div class="menu-home">
+                    <ul>
+                        <li class="line-bottom"><a class="text-color" href="./index.html">HOME</a></li>
+                        <li class="line-bottom"><a class="text-color" href="./html/about-us.html">ABOUT US</a></li>
+                        <li class="line-bottom"><a class="text-color" href="./html/service.html">SERVICE</a></li>
+                        <li class="line-bottom"><a class="text-color" href="./html/pages.html">PAGES</a></li>
+                        <li class="line-bottom"><a class="text-color" href="./html/blog.html">BLOG</a></li>
+                        <li class="line-bottom"><a class="text-color" href="./html/contact-us.html">CONTACT US</a></li>
+                    </ul>
+
+                </div>
+                <div class="searchbox">
+                    <input placeholder="Search Something" type="text" />
+                </div>
+            </div>
+        </main>
+        <main class="center3">
+            <div class="image-slider">
+                <div><img src="./img/slider1.png"></div>
+                <div><img src="./img/slider1.png"></div>
+                <div><img src="./img/slider1.png"></div>
             </div>
         </main>
     </header>
 
-    <main>
-        <div class="menu-secundario">
-            <div class="menu-home">
-                <ul>
-                    <li><a href="http://127.0.0.1:5500/Training/index.html">HOME</a></li>
-                    <li><a href="./about-us.html">ABOUT US</a></li>
-                    <li><a href="./service.html">SERVICE</a></li>
-                    <li><a href="./pages.html">PAGES</a></li>
-                    <li><a href="./blog.html">BLOG</a></li>
-                    <li><a href="./contact-us.html">CONTACT US</a></li>
-                </ul>
+    <header>
 
-            </div>
-            <div class="searchbox">
-                <input type="text" />
-            </div>
-        </div>
-    </main>
+    </header>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+
 </body>
 
 </html>
