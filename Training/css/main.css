@@ -48,3 +48,42 @@ main {
     opacity: 100%;
     transition: 250ms;
 }
+
+.menu-secundario {
+    background-color: #ffffff;
+    border-bottom: 4px solid;
+    border-color: #efefef;
+    color: #8b8b8b;
+
+}
+
+.menu-secundario ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.menu-secundario ul li a{
+    color: #8b8b8b;
+    transition: 500ms;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu-secundario ul li a:hover{
+    color: #00bac6;
+    transition: 150ms;
+    transition: 500ms;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu-home {
+    width: 79%;
+    float: left;
+}
+
+.searchbox {
+    width: 10%;
+    float: left;
+    margin-top: 20px;
+}
