@@ -145,6 +145,7 @@ button.slick-prev {
     top: 187px;
     left: 193px;
     cursor: pointer;
+    transition: 200ms;
 }
 
 button.slick-next {
@@ -159,6 +160,17 @@ button.slick-next {
     top: 187px;
     right: 193px;
     cursor: pointer;
+    transition: 200ms;
+}
+
+button.slick-next:hover {
+    opacity: 50%;
+    transition: 300ms;
+}
+
+button.slick-prev:hover {
+    opacity: 50%;
+    transition: 300ms;
 }
 
 .slick-list {
@@ -187,8 +199,63 @@ button.slick-next {
     height: 20px;
     cursor: pointer;
     margin-right: 8px;
+    transition: 200ms;
+}
+
+.slick-dots li button:hover {
+opacity: 50%;
 }
 
 li.slick-active button {
 background: #00bac6;
+transition: 400ms;
+}
+
+li.slick-active button:hover{
+    background: #00bac6;
+    opacity: 100%;
+}
+
+div.text-slider1 {
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    padding-left: 280px;
+    padding-right: 280px;
+    margin-bottom: -200px;
+    bottom: 310px;
+}
+
+.text-slider2 {
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    padding-left: 280px;
+    padding-right: 280px;
+    margin-bottom: -200px;
+    bottom: 90px;
+}
+
+div.text-slider-1 {
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    padding-left: 280px;
+    padding-right: 280px;
+    margin-bottom: -45px;
+    bottom: 310px;
+}
+
+div.text-slider-2 {
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    padding-left: 280px;
+    padding-right: 280px;
+    margin-bottom: -47px;
+    bottom: 245px;
 }
