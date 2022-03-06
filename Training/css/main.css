@@ -1,7 +1,11 @@
+/* Body */
+
 body {
     width: 100%;
     height: 100%;
 }
+
+/* Menu Princial */
 
 .menu-principal {
     background-color: #252323;
@@ -12,11 +16,6 @@ body {
 
 ul {
     padding-left: 0px;
-}
-
-.social li a:hover{
-    border-bottom: 2px solid;
-    border-color: #00bac6;
 }
 
 .center {
@@ -35,6 +34,13 @@ ul {
     border-bottom: 4px solid;
     border-color: #efefef;
     color: #8b8b8b;
+}
+
+/* Redes Sociais */
+
+.social li a:hover{
+    border-bottom: 2px solid;
+    border-color: #00bac6;
 }
 
 .logo {
@@ -67,6 +73,8 @@ ul {
     transition: 250ms;
 }
 
+/* Menu Secundário (Páginas e Guias) */
+
 .menu-secundario {
     height: 80px;
     width: 980px;
@@ -74,9 +82,10 @@ ul {
     margin-right: auto;
 }
 
-.menu-secundario ul li{
+.line-bottom {
     display: inline-block;
-    margin-right: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .menu-home ul li a{
@@ -87,7 +96,7 @@ ul {
 }
 
 .menu-home ul li a:hover{
-    color:#00bac6;
+    color: #00bac6;
     text-decoration: none;
     font-size: 14px;
     transition: 150ms;
@@ -100,11 +109,13 @@ ul {
 }
 
 .menu-home {
-    width: 50%;
+    width: 70%;
     float: left;
     margin-top: 16px;
     position: absolute;
 }
+
+/* Searchbox */
 
 .searchbox input {
     background-image: url('../img/search-icon.png');
@@ -132,6 +143,8 @@ ul {
     border: 1px solid;
     border-color:#00bac6;
 }
+
+/* Slider */
 
 button.slick-prev {
     font-size: 0px;
@@ -242,3 +255,44 @@ div.image-slider img {
     width: 100%;
     height: 454px;
 }
+
+div.image-slider {
+    height: 454px;
+}
+
+/* Dropdown Menu */
+
+.menu-home ul li ul {
+    display: none;
+    position: absolute;
+}
+
+.menu-home ul li:hover ul {
+    display:block;
+
+    transition: 300ms;
+}
+
+div ul.dropdown-menu {
+    position: absolute;
+    background-color: #00bac6;
+    z-index: 1;
+}
+
+ul.dropdown-menu {
+    padding-right: 61px;
+    left: 219px;
+    margin-top: 28px;
+    position: absolute;
+}
+
+div ul.dropdown-menu li a:hover {
+    color: #ffffff;
+    display: block;
+}
+
+ul.dropdown-menu {
+    color: #ffffff;
+    height: 100px;
+}
+
