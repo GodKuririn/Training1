@@ -133,13 +133,12 @@ height: 48px;
 /* Searchbox */
 
 .searchbox input {
-    background-image: url('../img/search-icon.png');
-    background-repeat: no-repeat;
-    background-position: 95%;
-    width: 190px;
+    width: 170px;
     height: 32px;
     margin-top: 22px;
     padding-left: 22px;
+    padding-right: 11px;
+    margin-right: 20px;
     border: 1px solid;
     border-color: #d6d6d6;
     transition: 650ms;
@@ -157,6 +156,25 @@ height: 48px;
     outline: 0;
     border: 1px solid;
     border-color:#00bac6;
+}
+
+div.search-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/search-icon.png");
+    background-repeat:no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    left: 965px;
+    top: 25px;
+    position: relative;
+    transition: 650ms;
+    cursor: pointer;
+}
+
+div.search-icon:hover {
+    background-image: url("../img/search-icon-2.png");
+    transition: 650ms;
 }
 
 /* Slider */
@@ -329,6 +347,7 @@ div ul.dropdown-menu li a {
     padding-right: 60px;
     text-decoration: none;
     background-color: #ffffff;
+    text-align: center;
 }
 
 div ul.dropdown-menu li a:hover {
